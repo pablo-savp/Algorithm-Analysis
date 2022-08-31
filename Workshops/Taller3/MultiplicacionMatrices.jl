@@ -1,7 +1,6 @@
 module MultiplicacionCadenaMatrices
 
 using OffsetArrays
-rightnow = Dates.Time(Dates.now())
 function optimizacion(a)
     n = length(a) - 1
     u = fill!(OffsetArray{Int}(0:n, 0:n), 0)
